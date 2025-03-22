@@ -15,6 +15,7 @@ const App = () => {
       console.error('Error fetching employees:', error);
     }
   };
+  
 
   useEffect(() => {
     fetchEmployees();
